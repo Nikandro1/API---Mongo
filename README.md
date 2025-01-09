@@ -4,7 +4,9 @@ Se creo una API con Mongo DB en donde se utiliza relación incrustada y referenc
 
 # Comandos de inicio
 npm install
+
 docker compose up -d
+
 npm start
 
 # Enfoques de relaciones en MongoDB
