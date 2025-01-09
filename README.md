@@ -2,6 +2,11 @@
 
 Se creo una API con Mongo DB en donde se utiliza relación incrustada y referenciada. Además de contar con las validación necesarías con middlewares y schemas. También cuenta con memoría caché con Redis.
 
+# Comandos de inicio
+npm install
+docker compose up -d
+npm start
+
 # Enfoques de relaciones en MongoDB
 
 Las relaciones en MongoDB se pueden modelar en 2 enfoques diferentes: la relación incrustada o relación referenciada. La elección de estos enfoques dependerá del tipo de casuística a abordar y decisiones de modelamiento de datos.
@@ -26,6 +31,8 @@ El motor de base de datos es **Mongo DB**. Se utiliza el archivo docker compose 
 ## API
 
 Implementar la API utilizando el framework express en el entorde de ejecucion de un poryecto NodeJs. Organizar el código en rutas, controlers y middleware utilizando la separación por recurso. A continuación se detallan los endpoinds que deberán estar disponbiles en la API.
+
+Una vez inicializado la documentación de los endpoints se puede ver en http:localhost:3001/api-docs
 
 | Verbo  | Recurso                    | Status code   | Descripción                                           |
 | ------ | -------------------------- | ------------- | ----------------------------------------------------- |
